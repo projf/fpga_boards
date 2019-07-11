@@ -10,6 +10,13 @@ create_clock -add -name sys_clk_pin -period 10.00 \
 ## Reset Button (active low)
 set_property -dict {PACKAGE_PIN G4  IOSTANDARD LVCMOS15} [get_ports {RST_BTN}];
 
+### Push Buttons
+#set_property -dict {PACKAGE_PIN B22 IOSTANDARD LVCMOS12} [get_ports {btnc}];
+#set_property -dict {PACKAGE_PIN D22 IOSTANDARD LVCMOS12} [get_ports {btnd}];
+#set_property -dict {PACKAGE_PIN C22 IOSTANDARD LVCMOS12} [get_ports {btnl}];
+#set_property -dict {PACKAGE_PIN D14 IOSTANDARD LVCMOS12} [get_ports {btnr}];
+#set_property -dict {PACKAGE_PIN F15 IOSTANDARD LVCMOS12} [get_ports {btnu}];
+
 ### HDMI Output (Source)
 #set_property -dict {PACKAGE_PIN AA4  IOSTANDARD LVCMOS33} [get_ports {hdmi_tx_cec  }];
 #set_property -dict {PACKAGE_PIN U1   IOSTANDARD TMDS_33 } [get_ports {hdmi_tx_clk_n}];

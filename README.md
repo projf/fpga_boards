@@ -12,7 +12,7 @@ You can find [constraints](constraints/) files for these boards in this reposito
 ## Planned Board Support
 We plan to support the following boards once we receive hardware and test them out:
 
-* [iCEBreaker](https://github.com/icebreaker-fpga/icebreaker) (Lattice iCE40UP5K)
+* [iCEBreaker](https://github.com/icebreaker-fpga/icebreaker) (Lattice iCE40-UP5K)
 * [Alchitry Cu](https://alchitry.com/collections/frontpage/products/alchitry-au) (Lattice iCE40-HX8K)
 * [Alchitry Au](https://alchitry.com/collections/frontpage/products/alchitry-au) (Xilinx Artix-7 XC7A35T)
 
