@@ -1,4 +1,4 @@
-# Project F Board Support
+# FPGA Board Support
 
 The following FPGA boards have been tested with Project F:
 
