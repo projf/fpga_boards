@@ -1,5 +1,5 @@
-## Project F: Digilent Original Arty
-## (C)2019 Will Green, Open source hardware released under the MIT License
+## Project F: Digilent Original Arty & Arty A7
+## (C)2020 Will Green, Open source hardware released under the MIT License
 ## Learn more at https://projectf.io
 
 ## Clock
@@ -9,6 +9,10 @@ create_clock -add -name sys_clk_pin -period 10.00 \
 
 ## Reset Button (active low)
 set_property -dict {PACKAGE_PIN C2  IOSTANDARD LVCMOS33} [get_ports {RST_BTN}];
+
+### UART
+#set_property -dict {PACKAGE_PIN D10 IOSTANDARD LVCMOS33} [get_ports {uart_fpga_tx}];
+#set_property -dict {PACKAGE_PIN A9  IOSTANDARD LVCMOS33} [get_ports {uart_fpga_rx}];
 
 ### BML 3-bit DVI Pmod Header JB
 #set_property -dict {PACKAGE_PIN E15 IOSTANDARD LVCMOS33} [get_ports {DVI_G  }];

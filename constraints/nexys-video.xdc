@@ -1,5 +1,5 @@
 ## Project F: Digilent Nexys Video Board Constraints
-## (C)2019 Will Green, Open source hardware released under the MIT License
+## (C)2020 Will Green, Open source hardware released under the MIT License
 ## Learn more at https://projectf.io
 
 ## Clock
@@ -16,6 +16,10 @@ set_property -dict {PACKAGE_PIN G4  IOSTANDARD LVCMOS15} [get_ports {RST_BTN}];
 #set_property -dict {PACKAGE_PIN C22 IOSTANDARD LVCMOS12} [get_ports {btnl}];
 #set_property -dict {PACKAGE_PIN D14 IOSTANDARD LVCMOS12} [get_ports {btnr}];
 #set_property -dict {PACKAGE_PIN F15 IOSTANDARD LVCMOS12} [get_ports {btnu}];
+
+### UART
+#set_property -dict {PACKAGE_PIN AA19 IOSTANDARD LVCMOS33} [get_ports {uart_fpga_tx}];
+#set_property -dict {PACKAGE_PIN V18  IOSTANDARD LVCMOS33} [get_ports {uart_fpga_rx}];
 
 ### HDMI Output (Source)
 #set_property -dict {PACKAGE_PIN AA4  IOSTANDARD LVCMOS33} [get_ports {hdmi_tx_cec  }];
