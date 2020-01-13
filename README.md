@@ -3,7 +3,7 @@
 The following FPGA boards have been tested with Project F:
 
 * [Digilent Nexys Video](https://reference.digilentinc.com/reference/programmable-logic/nexys-video/start) (Xilinx Artix-7 XC7A200T)
-* [Digilent Arty A7](https://reference.digilentinc.com/reference/programmable-logic/arty-a7/startl) (Xilinx Artix-7 XC7A35T) - tested using Arty Original [1]
+* [Digilent Arty A7](https://reference.digilentinc.com/reference/programmable-logic/arty-a7/start) (Xilinx Artix-7 XC7A35T) - tested using Arty Original [1]
 * [Digilent Arty Original](https://reference.digilentinc.com/reference/programmable-logic/arty/start) (Xilinx Artix-7 XC7A35T) - use the Arty A7 contraints file [1]
 
 You can find [constraints](constraints/) files for these boards in this repository.
