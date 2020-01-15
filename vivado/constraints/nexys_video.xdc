@@ -1,4 +1,4 @@
-## Project F: Digilent Nexys Video Board Constraints
+## Project F: Digilent Nexys Video Vivado Board Constraints
 ## (C)2020 Will Green, Open source hardware released under the MIT License
 ## Learn more at https://projectf.io
 
