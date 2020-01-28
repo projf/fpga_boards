@@ -21,19 +21,19 @@ set_property -dict {PACKAGE_PIN G4  IOSTANDARD LVCMOS15} [get_ports {RST_BTN}];
 #set_property -dict {PACKAGE_PIN AA19 IOSTANDARD LVCMOS33} [get_ports {uart_fpga_tx}];
 #set_property -dict {PACKAGE_PIN V18  IOSTANDARD LVCMOS33} [get_ports {uart_fpga_rx}];
 
-### HDMI Output (Source)
-#set_property -dict {PACKAGE_PIN AA4  IOSTANDARD LVCMOS33} [get_ports {hdmi_tx_cec  }];
-#set_property -dict {PACKAGE_PIN U1   IOSTANDARD TMDS_33 } [get_ports {hdmi_tx_clk_n}];
-#set_property -dict {PACKAGE_PIN T1   IOSTANDARD TMDS_33 } [get_ports {hdmi_tx_clk_p}];
-#set_property -dict {PACKAGE_PIN AB13 IOSTANDARD LVCMOS25} [get_ports {hdmi_tx_hpd  }];
-#set_property -dict {PACKAGE_PIN U3   IOSTANDARD LVCMOS33} [get_ports {hdmi_tx_rscl }];
-#set_property -dict {PACKAGE_PIN V3   IOSTANDARD LVCMOS33} [get_ports {hdmi_tx_rsda }];
-#set_property -dict {PACKAGE_PIN Y1   IOSTANDARD TMDS_33 } [get_ports {hdmi_tx_n[0] }];
-#set_property -dict {PACKAGE_PIN W1   IOSTANDARD TMDS_33 } [get_ports {hdmi_tx_p[0] }];
-#set_property -dict {PACKAGE_PIN AB1  IOSTANDARD TMDS_33 } [get_ports {hdmi_tx_n[1] }];
-#set_property -dict {PACKAGE_PIN AA1  IOSTANDARD TMDS_33 } [get_ports {hdmi_tx_p[1] }];
-#set_property -dict {PACKAGE_PIN AB2  IOSTANDARD TMDS_33 } [get_ports {hdmi_tx_n[2] }];
-#set_property -dict {PACKAGE_PIN AB3  IOSTANDARD TMDS_33 } [get_ports {hdmi_tx_p[2] }];
+## HDMI Output (Source)
+set_property -dict {PACKAGE_PIN AA4  IOSTANDARD LVCMOS33} [get_ports {hdmi_tx_cec  }];
+set_property -dict {PACKAGE_PIN U1   IOSTANDARD TMDS_33 } [get_ports {hdmi_tx_clk_n}];
+set_property -dict {PACKAGE_PIN T1   IOSTANDARD TMDS_33 } [get_ports {hdmi_tx_clk_p}];
+set_property -dict {PACKAGE_PIN AB13 IOSTANDARD LVCMOS25} [get_ports {hdmi_tx_hpd  }];
+set_property -dict {PACKAGE_PIN U3   IOSTANDARD LVCMOS33} [get_ports {hdmi_tx_rscl }];
+set_property -dict {PACKAGE_PIN V3   IOSTANDARD LVCMOS33} [get_ports {hdmi_tx_rsda }];
+set_property -dict {PACKAGE_PIN Y1   IOSTANDARD TMDS_33 } [get_ports {hdmi_tx_n[0] }];
+set_property -dict {PACKAGE_PIN W1   IOSTANDARD TMDS_33 } [get_ports {hdmi_tx_p[0] }];
+set_property -dict {PACKAGE_PIN AB1  IOSTANDARD TMDS_33 } [get_ports {hdmi_tx_n[1] }];
+set_property -dict {PACKAGE_PIN AA1  IOSTANDARD TMDS_33 } [get_ports {hdmi_tx_p[1] }];
+set_property -dict {PACKAGE_PIN AB2  IOSTANDARD TMDS_33 } [get_ports {hdmi_tx_n[2] }];
+set_property -dict {PACKAGE_PIN AB3  IOSTANDARD TMDS_33 } [get_ports {hdmi_tx_p[2] }];
 
 ### BML 3-bit DVI Pmod Header JB
 #set_property -dict {PACKAGE_PIN V9 IOSTANDARD LVCMOS33} [get_ports {DVI_G  }];
