@@ -1,5 +1,9 @@
 # FPGA Board Support
 
+## Archived August 2025
+
+This repo is no longer actively used. See [Isle](https://github.com/projf/isle) and [Project F Explore](https://github.com/projf/projf-explore) repos for current designs.
+
 ## Constraints
 
 The following FPGA boards have been tested with Project F. You can find Vivado constraints for these boards in this repository. For automatic project creation you also need the appropriate board file installed (see below).
